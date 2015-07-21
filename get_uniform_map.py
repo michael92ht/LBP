@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-    # gabor.py
+    # get_uniform_map.py
     # 2015-7-7
     # github: https://github.com/michael92ht
     #__author__ = 'huangtao'
