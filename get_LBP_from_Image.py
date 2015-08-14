@@ -33,7 +33,7 @@ class LBP:
         return image_array
     
     #图像的LBP原始特征计算算法：将图像指定位置的像素与周围8个像素比较
-    #比中心像素大的点赋值为1，比中心像素小的赋值为2，返回得到的二进制序列
+    #比中心像素大的点赋值为1，比中心像素小的赋值为0，返回得到的二进制序列
     def calute_basic_lbp(self,image_array,i,j):
         sum=[]
         if image_array[i-1,j-1]>image_array[i,j]:
